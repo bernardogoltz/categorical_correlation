@@ -10,7 +10,7 @@ Available metrics:
 # Example
 Let's use some random categorical data as an example:
 
-```
+```python
 import pandas as pd
 import numpy as np
 
@@ -24,7 +24,7 @@ data = pd.util.testing.makeCustomDataframe(
 
 Then, let's generate the cramer correlation matrix.
 
-```
+```python
 import cat_corr as cat
 res = cat.get_categorical_corr(
     data=data,
